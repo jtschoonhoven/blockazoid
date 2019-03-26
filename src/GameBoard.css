@@ -1,0 +1,19 @@
+.bz-gameboard table {
+    background-color: bisque;
+    table-layout: fixed;
+    white-space: nowrap; /* allow table to expand beyond width of cell content */
+    border-collapse: collapse; /* whether to use value border-spacing between cells */
+}
+
+.bz-gameboard td {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.bz-gameboard td.bz-active {
+    background-color: blueviolet;
+}
